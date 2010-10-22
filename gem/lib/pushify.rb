@@ -20,8 +20,8 @@ module CSSPush # :nodoc:
         :width                => '0px',
         :height               => '0px',
         :session_id           => request.session_options[:id],
-        :swf_address          => "/css_push/juggernaut.swf",
-        :ei_swf_address       => "/css_push/expressinstall.swf",
+        :swf_address          => "/pushify/juggernaut.swf",
+        :ei_swf_address       => "/pushify/expressinstall.swf",
         :flash_version        => 8,
         :flash_color          => "#fff",
         :swf_name             => "juggernaut_flash",
@@ -31,7 +31,7 @@ module CSSPush # :nodoc:
         :reconnect_intervals  => 3
       }.merge(options)
       <<-HTML
-        #{ javascript_include_tag :css_push }
+        #{ javascript_include_tag "pushify/pushify" }
         #{ javascript_tag "new Juggernaut(#{options.to_json});" }
       HTML
     end
@@ -40,7 +40,14 @@ end
 
 ROOT = Dir.pwd unless defined? ROOT
 module Juggernaut
-  CONFIG = YAML::load(ERB.new(IO.read("#{ROOT}/config/juggernaut_hosts.yml")).result).freeze
+  
+  if (File.exist?("#{ROOT}/config/juggernaut_hosts.yml"))
+    CONFIG_FILE = "#{ROOT}/config/juggernaut_hosts.yml"
+  else
+    CONFIG_FILE = "#{File.dirname(__FILE__)}/../install/juggernaut_hosts.yml"
+  end
+
+  CONFIG = YAML::load(ERB.new(IO.read(CONFIG_FILE)).result).freeze
   CR = "\0"
 
   class << self

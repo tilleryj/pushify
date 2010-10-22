@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "CSS-Push"
+    gem.name = "pushify"
     gem.summary = "See updates you make to css files appear immediately in all of your browsers without having to refresh."
     gem.email = "tilleryj@gmail.com"
-    gem.homepage = "http://github.com/tilleryj/CSS-Push"
-    gem.authors = ["Jason Tillery", "Vishu Ramanathan"]
+    gem.homepage = "http://github.com/tilleryj/pushify"
+    gem.authors = ["Jason Tillery"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
@@ -41,8 +41,19 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "CSS-Push #{version}"
+  rdoc.title = "pushify #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+
+desc "Creates a rails specification file"
+task :rails_spec => :build do
+  spec = Gem::Specification.load("pushify.gemspec")
+  File.open(".specification", 'w') do |file|
+    file.puts spec.to_yaml
+  end
+end
+
+
 

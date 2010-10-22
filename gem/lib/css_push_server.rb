@@ -1,5 +1,5 @@
 require 'find'
-require File.join(File.dirname(__FILE__), 'css_push')
+require File.join(File.dirname(__FILE__), 'pushify')
 
 ROOT = Dir.pwd unless defined? ROOT
 
