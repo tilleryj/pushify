@@ -1,0 +1,15 @@
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-22 03:48:49) [GET]
+Rendering test/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-22 03:50:08) [GET]
+Rendering test/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-22 03:50:21) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
