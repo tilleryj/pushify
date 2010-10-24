@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "pushify"
-    gem.summary = "See updates you make to css files appear immediately in all of your browsers without having to refresh."
+    gem.summary = "See updates you make to css, html, javascript, and images appear immediately in all of your browsers without having to refresh."
     gem.email = "tilleryj@gmail.com"
     gem.homepage = "http://github.com/tilleryj/pushify"
     gem.authors = ["Jason Tillery"]

@@ -4,8 +4,7 @@ require "pushify/rack"
 module Pushify
   module Rails
     def self.initialize
-      ActionView::Base.send(:include, CSSPush::PushHelper)
-      ActionView::Helpers::AssetTagHelper.register_javascript_expansion :css_push => ['css_push/swfobject', 'css_push/juggernaut', 'css_push/css_push']
+      ActionView::Base.send(:include, Pushify::Helper)
       
       ::Rails.configuration.middleware.use("Pushify::Rack")
     end
@@ -29,7 +28,7 @@ module Pushify
           [
             File.open(self.path_to_asset("swfobject.js")).read, 
             File.open(self.path_to_asset("juggernaut.js")).read, 
-            File.open(self.path_to_asset("css_push.js")).read
+            File.open(self.path_to_asset("pushify.js")).read
           ].join("\n\n")
         else
           File.open(self.path_to_asset(asset)).read

@@ -3401,3 +3401,148 @@ Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
 Processing TestController#index (for 127.0.0.1 at 2010-10-22 18:06:20) [GET]
 Rendering test/index
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:16:13) [GET]
+Rendering test/index
+Completed in 232ms (View: 162, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:27:31) [GET]
+Rendering test/index
+
+ActionView::TemplateError (No such file or directory - /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/../install/juggernaut_hosts.yml) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world
+
+    pushify (1.0.0) [v] lib/pushify/juggernaut.rb:10:in `read'
+    pushify (1.0.0) [v] lib/pushify/juggernaut.rb:10
+    pushify (1.0.0) [v] lib/pushify.rb:15:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:13:in `call'
+
+Rendered rescues/_trace (96.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:28:24) [GET]
+Rendering test/index
+
+ActionView::TemplateError (No such file or directory - /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/../install/juggernaut_hosts.yml) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world
+
+    pushify (1.0.0) [v] lib/pushify/juggernaut.rb:10:in `read'
+    pushify (1.0.0) [v] lib/pushify/juggernaut.rb:10
+    pushify (1.0.0) [v] lib/pushify.rb:15:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:13:in `call'
+
+Rendered rescues/_trace (94.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:28:43) [GET]
+Rendering test/index
+
+ActionView::TemplateError (uninitialized constant Juggernaut::CONFIG) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world
+
+    pushify (1.0.0) [v] lib/pushify.rb:15:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:13:in `call'
+
+Rendered rescues/_trace (32.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:28:45) [GET]
+Rendering test/index
+
+ActionView::TemplateError (uninitialized constant Juggernaut::CONFIG) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world
+
+    pushify (1.0.0) [v] lib/pushify.rb:15:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:13:in `call'
+
+Rendered rescues/_trace (96.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:28:45) [GET]
+Rendering test/index
+
+ActionView::TemplateError (uninitialized constant Juggernaut::CONFIG) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world
+
+    pushify (1.0.0) [v] lib/pushify.rb:15:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:13:in `call'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:29:11) [GET]
+Rendering test/index
+
+ActionView::TemplateError (Expected /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/juggernaut.rb to define Pushify::Juggernaut) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world
+
+    pushify (1.0.0) [v] lib/pushify.rb:15:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:13:in `call'
+
+Rendered rescues/_trace (92.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:29:41) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:29:42) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]

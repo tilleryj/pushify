@@ -1,4 +1,4 @@
-var CSSPush = {
+var Pushify = {
 	touch: function(files) {
 		files.each(function(f) {
 			var css = "/stylesheets" + f.strip().toLowerCase();
