@@ -26,6 +26,7 @@ module Pushify
       def self.asset_body(asset)
         if (asset == "pushify.js")
           [
+            File.open(self.path_to_asset("json.js")).read, 
             File.open(self.path_to_asset("swfobject.js")).read, 
             File.open(self.path_to_asset("juggernaut.js")).read, 
             File.open(self.path_to_asset("pushify.js")).read,
