@@ -17,7 +17,7 @@ module Pushify
       
       def self.assets
         {
-          "/javascripts/pushify/pushify.js" => ["text/application", "pushify.js"],
+          "/pushify/pushify.js" => ["text/application", "pushify.js"],
           "/pushify/juggernaut.swf" => ["application/x-shockwave-flash", "juggernaut.swf"],
           "/pushify/expressinstall.swf" => ["application/x-shockwave-flash", "/pushify/expressinstall.swf"]
         }
@@ -28,7 +28,8 @@ module Pushify
           [
             File.open(self.path_to_asset("swfobject.js")).read, 
             File.open(self.path_to_asset("juggernaut.js")).read, 
-            File.open(self.path_to_asset("pushify.js")).read
+            File.open(self.path_to_asset("pushify.js")).read,
+            Pushify.juggernaut_src
           ].join("\n\n")
         else
           File.open(self.path_to_asset(asset)).read

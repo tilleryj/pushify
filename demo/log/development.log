@@ -3546,3 +3546,1513 @@ Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
 Processing TestController#index (for 127.0.0.1 at 2010-10-23 21:29:42) [GET]
 Rendering test/index
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:04:40) [GET]
+Rendering test/index
+Completed in 44ms (View: 43, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:05:39) [GET]
+Rendering test/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:05:47) [GET]
+Rendering test/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:05:47 -0500 2010
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:05:48) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:05:50) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:05:50 -0500 2010
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:05:55) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:06:01) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:06:01 -0500 2010
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:06) [GET]
+Rendering test/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:07) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:08) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:09) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:09) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:09) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:10) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:10) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:48) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:49) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:51) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:53) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:07:55) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:08:25) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:08:26) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:08:32) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:08:41) [GET]
+Rendering test/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:08:45) [GET]
+Rendering test/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:10:24) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:10:33) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:10:45) [GET]
+Rendering test/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:10:46) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:10:47) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:34) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:36) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:37) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:38) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:38) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:39) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:39) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:40) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:40) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:41) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:41) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:42) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:42) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:42) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:43) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:43) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:43) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:44) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:45) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:45) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:46) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:11:48) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:12:08) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:12:09) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:13:29) [GET]
+Rendering test/index
+Completed in 32ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:13:29 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `body' for []:Array
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:16:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:14:22) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:14:26) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:14:26 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `body' for []:Array
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:16:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:15:00) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:15:03) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:15:03 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `body' for []:Array
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:15:29) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:15:32) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:15:32 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `body' for []:Array
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:23) [GET]
+Rendering test/index
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:25) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:27) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:29) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:30) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:30) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:30) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:32) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:32) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:32) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:16:34) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:18:02) [GET]
+Rendering test/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:18:21) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:18:24) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:19:31) [GET]
+Rendering test/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:19:33) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:19:39) [GET]
+Rendering test/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:21) [GET]
+Rendering test/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:23) [GET]
+Rendering test/index
+Completed in 53ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:23) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:27) [GET]
+Rendering test/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:30) [GET]
+Rendering test/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:51) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:52) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:20:54) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:21:00) [GET]
+Rendering test/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:21:42) [GET]
+Rendering test/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:21:48) [GET]
+Rendering test/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:22:20) [GET]
+Rendering test/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:22:35) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:22:45) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:22:48) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:23:01) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:23:08) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:30:53) [GET]
+  Parameters: {"1"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?1]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:30:55) [GET]
+  Parameters: {"2"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?2]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:31:13) [GET]
+  Parameters: {"2"=>nil}
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/?2]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:31:17) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/?]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:31:42) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/?]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:31:46) [GET]
+  Parameters: {"12"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?12]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:31:48) [GET]
+  Parameters: {"13"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?13]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:32:16) [GET]
+  Parameters: {"13"=>nil}
+Rendering test/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/?13]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:32:22) [GET]
+  Parameters: {"124"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?124]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:32:24) [GET]
+  Parameters: {"1245"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?1245]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:01) [GET]
+  Parameters: {"1245"=>nil}
+Rendering test/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/?1245]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:02) [GET]
+  Parameters: {"1245"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?1245]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:04) [GET]
+  Parameters: {"12455"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?12455]
+/!\ FAILSAFE /!\  Sat Oct 23 22:33:04 -0500 2010
+  Status: 500 Internal Server Error
+  undefined local variable or method `new_response' for #<Pushify::Rack:0x1034dda10>
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:22:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:22) [GET]
+  Parameters: {"12455"=>nil}
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/?12455]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:23) [GET]
+  Parameters: {"12455"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?12455]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:24) [GET]
+  Parameters: {"12455"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?12455]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:24) [GET]
+  Parameters: {"12455"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?12455]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:32) [GET]
+  Parameters: {"a"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?a]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:33:34) [GET]
+  Parameters: {"ab"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?ab]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:34:53) [GET]
+  Parameters: {"ab"=>nil}
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/?ab]
+/!\ FAILSAFE /!\  Sat Oct 23 22:34:53 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `response_body' for #<ActionController::Response:0x1035e3180>
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:19:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:35:52) [GET]
+  Parameters: {"ab"=>nil}
+Rendering test/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/?ab]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:35:53) [GET]
+  Parameters: {"ab"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?ab]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:35:54) [GET]
+  Parameters: {"ab"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?ab]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:35:54) [GET]
+  Parameters: {"ab"=>nil}
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?ab]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:35:59) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:04) [GET]
+Rendering test/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:09) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:11) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:12) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:12) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:13) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:39) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:40) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:36:44) [GET]
+Rendering test/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:41:49) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:42:13) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:43:34) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:44:03) [GET]
+Rendering test/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:47:15) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined local variable or method `request' for Pushify:Module) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world2
+
+    pushify (1.0.0) [v] lib/pushify.rb:27:in `javascript_src'
+    pushify (1.0.0) [v] lib/pushify.rb:14:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:12:in `call'
+
+Rendered rescues/_trace (92.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Sat Oct 23 22:47:15 -0500 2010
+  Status: 500 Internal Server Error
+  undefined local variable or method `request' for Pushify:Module
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify.rb:27:in `javascript_src'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:48:36) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined method `javascript_include_tag' for Pushify:Module) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world2
+
+    pushify (1.0.0) [v] lib/pushify.rb:40:in `javascript_src'
+    pushify (1.0.0) [v] lib/pushify.rb:14:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:12:in `call'
+
+Rendered rescues/_trace (91.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Sat Oct 23 22:48:36 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `javascript_include_tag' for Pushify:Module
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify.rb:40:in `javascript_src'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:48:37) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined method `javascript_include_tag' for Pushify:Module) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world2
+
+    pushify (1.0.0) [v] lib/pushify.rb:40:in `javascript_src'
+    pushify (1.0.0) [v] lib/pushify.rb:14:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:12:in `call'
+
+Rendered rescues/_trace (32.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Sat Oct 23 22:48:37 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `javascript_include_tag' for Pushify:Module
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify.rb:40:in `javascript_src'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:48:39) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined method `javascript_include_tag' for Pushify:Module) on line #5 of app/views/test/index.html.erb:
+2: <head>
+3:  	<%= stylesheet_link_tag 'test' %>
+4: 	<%= javascript_include_tag "prototype" %>
+5: 	<%= pushify %>
+6: </head>
+7: <body>
+8: 	Hello world2
+
+    pushify (1.0.0) [v] lib/pushify.rb:40:in `javascript_src'
+    pushify (1.0.0) [v] lib/pushify.rb:14:in `pushify'
+    app/views/test/index.html.erb:5
+    pushify (1.0.0) [v] lib/pushify/rack.rb:12:in `call'
+
+Rendered rescues/_trace (96.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Sat Oct 23 22:48:39 -0500 2010
+  Status: 500 Internal Server Error
+  undefined method `javascript_include_tag' for Pushify:Module
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify.rb:40:in `javascript_src'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:49:26) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:49:26 -0500 2010
+  Status: 500 Internal Server Error
+  can't convert Fixnum into String
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb:25:in `add_without_safety'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb:25:in `+'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:19:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:49:31) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:49:31 -0500 2010
+  Status: 500 Internal Server Error
+  can't convert Fixnum into String
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb:25:in `add_without_safety'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb:25:in `+'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:19:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:49:57) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sat Oct 23 22:49:57 -0500 2010
+  Status: 500 Internal Server Error
+  can't convert Fixnum into String
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb:25:in `add_without_safety'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb:25:in `+'
+    /Users/tilleryj/projects/pushify/demo/vendor/gems/pushify-1.0.0/lib/pushify/rack.rb:19:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:50:56) [GET]
+Rendering test/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:50:58) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:50:59) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:51:48) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:52:09) [GET]
+Rendering test/index
+Completed in 54ms (View: 53, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:54:06) [GET]
+Rendering test/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 22:55:42) [GET]
+Rendering test/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:00:40) [GET]
+Rendering test/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:01:12) [GET]
+Rendering test/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:01:59) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:02:01) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:02:12) [GET]
+Rendering test/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:02:14) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:02:20) [GET]
+Rendering test/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:02:20) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:02:32) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
