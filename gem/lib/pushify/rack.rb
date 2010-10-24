@@ -17,18 +17,9 @@ module Pushify
           pushify_src = Pushify.javascript_src
           response.body = response.body.gsub(/(<\/body>)/, "#{pushify_src}</body>")
           headers["Content-Length"] = (headers["Content-Length"].to_i + pushify_src.size).to_s
-
-          [status, headers, response]
-        else
-          [status, headers, response]
         end
-      
-        # status, headers, response = @app.call(env)
-        # if (headers["Content-Type"].include? "text/html")
-        #   [200, {"Content-Type" => "text/html"}, []]
-        # else
-        #   [status, headers, response]
-        # end
+
+        [status, headers, response]
       end
     end
   end

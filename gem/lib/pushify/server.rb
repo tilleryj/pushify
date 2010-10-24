@@ -14,7 +14,8 @@ module Pushify
     def initialize
       self.directories = [
         File.join(ROOT, "public", "stylesheets"),
-        File.join(ROOT, "public", "images")
+        File.join(ROOT, "public", "images"),
+        File.join(ROOT, "public", "javascripts")
       ]
       self.last_mtime = Time.now
     end
