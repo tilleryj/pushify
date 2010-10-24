@@ -5236,3 +5236,56 @@ Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
 Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:49:06) [GET]
 Rendering test/index
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:49:47) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:52:59) [GET]
+Rendering test/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-23 23:52:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/test.jpg" with {:method=>:get}):
+  pushify (1.0.0) [v] lib/pushify/rack.rb:12:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:53:40) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:54:28) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:54:55) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:55:52) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:56:00) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:56:53) [GET]
+Rendering test/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-10-23 23:57:18) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]

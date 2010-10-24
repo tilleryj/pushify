@@ -12,9 +12,10 @@ module Pushify
     attr_accessor :directories, :last_mtime
 
     def initialize
-      css_root = File.join(ROOT, "public", "stylesheets")
-
-      self.directories = [css_root]
+      self.directories = [
+        File.join(ROOT, "public", "stylesheets"),
+        File.join(ROOT, "public", "images")
+      ]
       self.last_mtime = Time.now
     end
   
