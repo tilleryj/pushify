@@ -8,18 +8,24 @@ require File.join(lib_dir, "pushify", "install")
 require File.join(lib_dir, "pushify", "server")
 
 
-Pushify::Install.install! if ARGV.include?('install')
+if (ARGV.include?('install'))
+  print "Installing Pushify..."
+  Pushify::Install.install!
+  puts "success!"
+  ARGV.clear
+  ARGV.push("start")
+end
 
-
-# TODO: HACK
 pids = File.join('tmp', 'pids')
 pid = File.join(pids, 'juggernaut.pid')
 if ARGV.include?('stop')
+  print "Stopping pushify server..."
   system("kill #{File.read(pid)}")
   system("rm #{pid}")
 else
+  print "Starting pushify server..."
   config = File.exist?("config/juggernaut.yml") ? "config/juggernaut.yml" : File.join(File.dirname(__FILE__), "..", "install", "juggernaut.yml")
   system("juggernaut -c#{config} -d -P #{pid}")
 end
-
 Daemons.run_proc(File.join(pids, 'pushify_server.rb')) { Pushify::Server.run }
+puts "success!"
