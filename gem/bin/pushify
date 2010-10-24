@@ -8,24 +8,43 @@ require File.join(lib_dir, "pushify", "install")
 require File.join(lib_dir, "pushify", "server")
 
 
-if (ARGV.include?('install'))
-  print "Installing Pushify..."
-  Pushify::Install.install!
-  puts "success!"
-  ARGV.clear
-  ARGV.push("start")
-end
+if (ARGV.to_s.empty? || ARGV.to_s == "help")
 
-pids = File.join('tmp', 'pids')
-pid = File.join(pids, 'juggernaut.pid')
-if ARGV.include?('stop')
-  print "Stopping pushify server..."
-  system("kill #{File.read(pid)}")
-  system("rm #{pid}")
+  puts
+  puts "Pushify - from editor to browser"
+  puts "--------------------------------------------"
+  puts "pushify start     # start the pushify server"
+  puts "pushify stop      # stop the pushify server"
+  puts "pushify install   # install into a rails app"
+  puts "pushify readme    # print the readme"
+  puts "pushify help      # show this message"
+  puts
+  
+elsif (ARGV.to_s == "readme")
+  puts
+  puts File.open(File.join(File.dirname(__FILE__), "..", "README.markdown")).read
+  puts
 else
-  print "Starting pushify server..."
-  config = File.exist?("config/juggernaut.yml") ? "config/juggernaut.yml" : File.join(File.dirname(__FILE__), "..", "install", "juggernaut.yml")
-  system("juggernaut -c#{config} -d -P #{pid}")
+
+  if (ARGV.include?('install'))
+    print "Installing Pushify..."
+    Pushify::Install.install!
+    puts "success!"
+    ARGV.clear
+    ARGV.push("start")
+  end
+
+  pids = File.join('tmp', 'pids')
+  pid = File.join(pids, 'juggernaut.pid')
+  if ARGV.include?('stop')
+    print "Stopping pushify server..."
+    system("kill #{File.read(pid)}")
+    system("rm #{pid}")
+  else
+    print "Starting pushify server..."
+    config = File.exist?("config/juggernaut.yml") ? "config/juggernaut.yml" : File.join(File.dirname(__FILE__), "..", "install", "juggernaut.yml")
+    system("juggernaut -c#{config} -d -P #{pid}")
+  end
+  Daemons.run_proc(File.join(pids, 'pushify_server.rb')) { Pushify::Server.run }
+  puts "success!"
 end
-Daemons.run_proc(File.join(pids, 'pushify_server.rb')) { Pushify::Server.run }
-puts "success!"

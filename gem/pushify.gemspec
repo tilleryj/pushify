@@ -9,26 +9,35 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jason Tillery"]
-  s.date = %q{2010-10-22}
-  s.email = %q{tilleryj@gmail.com}
+  s.date = %q{2010-10-24}
+  s.default_executable = %q{pushify}
+  s.email = %q{tilleryj@thinklinkr.com}
+  s.executables = ["pushify"]
   s.files = [
-    "LICENSE",
+    ".specification",
+     "LICENSE",
      "README.markdown",
      "ROADMAP",
      "Rakefile",
      "VERSION",
-     "bin/csspush",
      "bin/pushify",
-     "install/css_push.js",
-     "install/css_push_initializer.rb",
      "install/expressinstall.swf",
+     "install/json.js",
      "install/juggernaut.js",
      "install/juggernaut.swf",
      "install/juggernaut.yml",
      "install/juggernaut_hosts.yml",
+     "install/pushify.js",
      "install/swfobject.js",
-     "lib/css_push_server.rb",
-     "rails/init.rb",
+     "lib/pushify.rb",
+     "lib/pushify/helper.rb",
+     "lib/pushify/install.rb",
+     "lib/pushify/juggernaut.rb",
+     "lib/pushify/rack.rb",
+     "lib/pushify/rails.rb",
+     "lib/pushify/server.rb",
+     "pkg/pushify-1.0.0.gem",
+     "pushify.gemspec",
      "spec/css_push_spec.rb",
      "spec/spec_helper.rb"
   ]
@@ -36,7 +45,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{See updates you make to css files appear immediately in all of your browsers without having to refresh.}
+  s.summary = %q{See updates you make to css, html, javascript, and images appear immediately in all of your browsers without having to refresh.}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
