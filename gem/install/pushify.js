@@ -19,6 +19,17 @@ var Pushify = (function() {
 		}
 	};
 
+	var handleScssFile = function(file) {
+		var cssFile = "/compiled/" + file.match(/(.*)\.scss($|\?)/)[1];
+		handleCssFile(cssFile);
+		setTimeout(function() {
+			handleCssFile(cssFile);
+		}, 1000);
+		setTimeout(function() {
+			handleCssFile(cssFile);
+		}, 2000);
+	};
+
 	var handleImageFile = function(file) {
 		var images = document.getElementsByTagName("img");
 		var imgSrc = "/images" + file;
@@ -55,7 +66,9 @@ var Pushify = (function() {
 
 			for (var i=0, length=files.length; i<length; i++) {
 				var file = strip(files[i]).toLowerCase();
-				if (file.match(/\.css($|\?)/)) {
+				if (file.match(/\.scss($|\?)/)) {
+					handleCssFile(file);
+				} else if (file.match(/\.css($|\?)/)) {
 					handleCssFile(file);
 				} else if (file.match(/\.js($|\?)/)) {
 					handleJsFile(file);
