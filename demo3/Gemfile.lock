@@ -1,3 +1,8 @@
+PATH
+  remote: ../gem
+  specs:
+    pushify (1.0.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -69,5 +74,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pushify!
   rails (= 3.0.1)
   sqlite3-ruby

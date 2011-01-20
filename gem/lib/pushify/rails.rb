@@ -6,8 +6,11 @@ module Pushify
     def self.initialize
       ActionView::Base.send(:include, Pushify::Helper)
       
-      if defined?(::Rails.configuration) && ::Rails.configuration.respond_to?(:middleware)
-        ::Rails.configuration.middleware.use("Pushify::Rack")
+
+      if (::Rails.version.start_with?("2"))
+        if defined?(::Rails.configuration) && ::Rails.configuration.respond_to?(:middleware)
+          ::Rails.configuration.middleware.use("Pushify::Rack")
+        end
       end
     end
     
@@ -39,12 +42,17 @@ module Pushify
         end
       end
       
+      def self.just_the_path(path)
+        m = path.match(/https?:\/\/[-A-Za-z0-9\.:]*(\/.*)/)
+        m ? m[1] : path
+      end
+      
       def self.includes?(path)
-        self.assets.keys.include?(path)
+        self.assets.keys.include?(just_the_path(path))
       end
       
       def self.response(path)
-        asset = self.assets[path]
+        asset = self.assets[just_the_path(path)]
         [200, {"Content-Type" => asset[0]}, [self.asset_body(asset[1])]]
       end
     end

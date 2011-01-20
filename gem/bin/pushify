@@ -40,11 +40,12 @@ else
     print "Stopping pushify server..."
     system("kill #{File.read(pid)}")
     system("rm #{pid}")
+    system("killall pushify_server.rb")
   else
     print "Starting pushify server..."
     config = File.exist?("config/juggernaut.yml") ? "config/juggernaut.yml" : File.join(File.dirname(__FILE__), "..", "install", "juggernaut.yml")
     system("juggernaut -c#{config} -d -P #{pid}")
+    Daemons.run_proc(File.join(pids, 'pushify_server.rb')) { Pushify::Server.run }
   end
-  Daemons.run_proc(File.join(pids, 'pushify_server.rb')) { Pushify::Server.run }
   puts "success!"
 end
