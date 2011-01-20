@@ -6,7 +6,9 @@ module Pushify
     def self.initialize
       ActionView::Base.send(:include, Pushify::Helper)
       
-      ::Rails.configuration.middleware.use("Pushify::Rack")
+      if defined?(::Rails.configuration) && ::Rails.configuration.respond_to?(:middleware)
+        ::Rails.configuration.middleware.use("Pushify::Rack")
+      end
     end
     
     class Assets

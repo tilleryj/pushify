@@ -1,7 +1,6 @@
 require "yaml"
 require "socket"
 require "erb"
-require "json"
 
 module Pushify # :nodoc:
   module Helper
