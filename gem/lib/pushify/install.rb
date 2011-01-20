@@ -19,7 +19,14 @@ module Pushify
       return false if File.open('Gemfile', 'r').read.match(/\s*gem\s+['"]pushify['"]/)
       
       File.open('Gemfile', 'a') do |f|
-        f.write("\n\ngem 'pushify'\n")
+        f.write("\n\ngroup :development do\n  gem 'pushify'\nend\n")
+      end
+      
+      split_on = "Demo3::Application.configure do"
+      parts = File.read('config/environments/development.rb').split(split_on)
+      
+      File.open('config/environments/development.rb', "w") do |f|
+        f.puts parts.join(split_on + "\n\n  config.middleware.use Pushify::Rack")
       end
       true
     end

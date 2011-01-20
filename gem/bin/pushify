@@ -30,6 +30,7 @@ else
     print "Installing Pushify..."
     Pushify::Install.install!
     puts "success!"
+
     ARGV.clear
     ARGV.push("start")
   end
