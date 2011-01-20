@@ -4,3 +4,4 @@ demo/tmp
 demo/log
 .DS_Store
 **/.DS_Store
+gem/pkg
