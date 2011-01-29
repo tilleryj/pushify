@@ -83,3 +83,8 @@ Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
 Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:10:44) [GET]
 Rendering test/index
 Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:14:22) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
