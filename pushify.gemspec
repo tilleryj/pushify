@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pushify}
-  s.version = "1.0.0"
+  s.version = "1.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jason Tillery"]
@@ -14,10 +14,8 @@ Gem::Specification.new do |s|
   s.email = %q{tilleryj@thinklinkr.com}
   s.executables = ["pushify"]
   s.files = [
-    ".specification",
     "LICENSE",
     "README.markdown",
-    "ROADMAP",
     "Rakefile",
     "VERSION",
     "bin/pushify",
@@ -36,10 +34,7 @@ Gem::Specification.new do |s|
     "lib/pushify/rack.rb",
     "lib/pushify/rails.rb",
     "lib/pushify/server.rb",
-    "pkg/pushify-1.0.0.gem",
-    "pushify.gemspec",
-    "spec/css_push_spec.rb",
-    "spec/spec_helper.rb"
+    "pushify.gemspec"
   ]
   s.homepage = %q{http://github.com/tilleryj/pushify}
   s.require_paths = ["lib"]
