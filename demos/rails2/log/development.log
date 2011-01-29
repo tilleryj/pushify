@@ -1,0 +1,85 @@
+# Logfile created on Thu Jan 20 02:35:24 -0600 2011
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:03:33) [GET]
+Rendering test/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:17:09) [GET]
+Rendering test/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:17:36) [GET]
+Rendering test/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:20:00) [GET]
+Rendering test/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:20:02) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:20:02) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:20:02) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-20 03:20:03) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-25 22:00:38) [GET]
+Rendering test/index
+Completed in 32ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-25 22:02:18) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:06:52) [GET]
+Rendering test/index
+Completed in 528ms (View: 339, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:09:32) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:09:38) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:09:46) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:09:52) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:10:00) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:10:44) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]

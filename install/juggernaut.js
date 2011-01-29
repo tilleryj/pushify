@@ -110,7 +110,7 @@ function Juggernaut(options) {
 
 	var observeEvent = function(element, eventName, handler) {
 		if (element.addEventListener) {
-			element.addEventListener(eventName, handler)
+			element.addEventListener(eventName, handler, false)
 		} else {
 			element.attachEvent("on" + eventName, handler);
 		}

@@ -33,6 +33,6 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'pushify'
 
 group :development do
-  gem 'pushify', :path => "../gem"
+  gem 'pushify', :path => "../.."
 end
 
