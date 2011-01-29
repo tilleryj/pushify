@@ -1,7 +1,6 @@
 tmp
-gem/tmp
-demo/tmp
-demo/log
+demo/**/tmp
+demo/**/log
 .DS_Store
 **/.DS_Store
-gem/pkg
+pkg
