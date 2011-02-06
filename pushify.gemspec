@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name = %q{pushify}
   s.version = "1.2.0"
 
-  s.add_dependency("juggernaut")
+  s.add_dependency("juggernaut", "= 0.5.8")
   s.add_dependency("json")
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
