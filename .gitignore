@@ -1,6 +1,6 @@
 tmp
-demo/**/tmp
-demo/**/log
+demos/**/tmp
+demos/**/log
 .DS_Store
 **/.DS_Store
 pkg

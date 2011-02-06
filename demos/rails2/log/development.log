@@ -88,3 +88,38 @@ Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
 Processing TestController#index (for 127.0.0.1 at 2011-01-29 17:14:22) [GET]
 Rendering test/index
 Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 19:49:44) [GET]
+Rendering test/index
+Completed in 106ms (View: 105, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 19:57:42) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 19:59:33) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 19:59:57) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 20:03:59) [GET]
+Rendering test/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 20:04:47) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TestController#index (for 127.0.0.1 at 2011-02-05 23:28:33) [GET]
+Rendering test/index
+Completed in 148ms (View: 146, DB: 0) | 200 OK [http://localhost/]

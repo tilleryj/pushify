@@ -9,7 +9,7 @@ module Pushify
       CONFIG_FILE = "#{File.dirname(__FILE__)}/../../install/juggernaut_hosts.yml"
     end
 
-    CONFIG = YAML::load(ERB.new(IO.read(CONFIG_FILE)).result).freeze
+    CONFIG = YAML::load(::ERB.new(IO.read(CONFIG_FILE)).result).freeze
     CR = "\0"
 
     class << self
